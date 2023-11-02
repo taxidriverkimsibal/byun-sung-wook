@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Ballon d'Or</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2; 
+        }
+        #searchContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        #searchInput {
+            padding: 10px;
+            border: 2px solid #0044ffa1; 
+            border-radius: 25px; 
+            width: 300px; 
+            font-size: 16px;
+        }
+        #searchButton {
+            padding: 10px 20px;
+            background-color: #0044ffa1;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px; 
+        }
+        #searchResults {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="searchContainer">
+        <input type="text" id="searchInput" placeholder="연도를 입력하시오 (2000~2022)">
+        <button id="searchButton" onclick="search()">검색</button>
+    </div>
+
+    <script>
+        function search() {
+            const searchInput = document.getElementById("searchInput");
+            const searchTerm = searchInput.value.toLowerCase();
+
+            if (searchTerm === "2022") {
+                window.location.href = "발롱도르 연도별 수상자/2022.html";
+            } 
+            else if (searchTerm === "2021") {
+                window.location.href = "발롱도르 연도별 수상자/2021.html";
+            }
+            else if (searchTerm === "2020") {
+                window.location.href = "발롱도르 연도별 수상자/2020.html";
+            }
+            else if (searchTerm === "2019") {
+                window.location.href = "발롱도르 연도별 수상자/2019.html";
+            }
+            else if (searchTerm === "2018") {
+                window.location.href = "발롱도르 연도별 수상자/2018.html";
+            }
+            else if (searchTerm === "2017") {
+                window.location.href = "발롱도르 연도별 수상자/2017.html";
+            }
+            else if (searchTerm === "2016") {
+                window.location.href = "발롱도르 연도별 수상자/2016.html";
+            }
+            else if (searchTerm === "2015") {
+                window.location.href = "발롱도르 연도별 수상자/2015.html";
+            }
+            else if (searchTerm === "2014") {
+                window.location.href = "발롱도르 연도별 수상자/2014.html";
+            }
+            else if (searchTerm === "2013") {
+                window.location.href = "발롱도르 연도별 수상자/2013.html";
+            }
+            else if (searchTerm === "2012") {
+                window.location.href = "발롱도르 연도별 수상자/2012.html";
+            }
+            else if (searchTerm === "2011") {
+                window.location.href = "발롱도르 연도별 수상자/2011.html";
+            }
+            else if (searchTerm === "2010") {
+                window.location.href = "발롱도르 연도별 수상자/2010.html";
+            }
+            else if (searchTerm === "2009") {
+                window.location.href = "발롱도르 연도별 수상자/2009.html";
+            }
+            else if (searchTerm === "2008") {
+                window.location.href = "발롱도르 연도별 수상자/2008.html";
+            }
+            else if (searchTerm === "2007") {
+                window.location.href = "발롱도르 연도별 수상자/2007.html";
+            }
+            else if (searchTerm === "2006") {
+                window.location.href = "발롱도르 연도별 수상자/2006.html";
+            }
+            else if (searchTerm === "2005") {
+                window.location.href = "발롱도르 연도별 수상자/2005.html";
+            }
+            else if (searchTerm === "2004") {
+                window.location.href = "발롱도르 연도별 수상자/2004.html";
+            }
+            else if (searchTerm === "2003") {
+                window.location.href = "발롱도르 연도별 수상자/2003.html";
+            }
+            else if (searchTerm === "2002") {
+                window.location.href = "발롱도르 연도별 수상자/2002.html";
+            }
+            else if (searchTerm === "2001") {
+                window.location.href = "발롱도르 연도별 수상자/2001.html";
+            }
+            else if (searchTerm === "2000") {
+                window.location.href = "발롱도르 연도별 수상자/2000.html";
+            }
+            else {
+                alert("검색어와 일치하는 결과가 없습니다.");
+            }
+        }
+    </script>
+</body>
+
+
+<style>
+    body{
+        background-image: url('image/발롱도르.jpg');
+        background-size: contain;
+        background-attachment: fixed;
+    }
+</style>
